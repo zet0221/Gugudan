@@ -18,7 +18,7 @@ public class Gugudan {
 			System.out.println(num*i);
 			i=i+1;
 		}*/
-		if(num>1 && num<10)
+		/*if(num>1 && num<10)
 		{
 			for(int i=1;i<10;i++)
 			{
@@ -27,5 +27,15 @@ public class Gugudan {
 		}
 		else
 			System.out.println("잘못입력했다.");
-		}		
+		}*/
+		
+		int[] result = new int[9]; // 9개의 데이터 정수를 저장할 수 있는 배열 생성
+		//System.out.println(result.length); //9
+		for(int i=0;i<result.length;i++) // 0 ~ 8
+		{	
+			result[i]=num*(i+1);
+			System.out.println(result[i]);
+			
+		}
+	}
 }
