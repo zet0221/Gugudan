@@ -17,12 +17,7 @@ public class Gugudan {
 		while(i<10)
 		{
 			System.out.println(num*i);
-<<<<<<< HEAD
 			i=i+1;
-		}
-=======
-			i++;
 		}		
->>>>>>> branch 'master' of https://github.com/zet0221/Gugudan
 	}
 }
